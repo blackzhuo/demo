@@ -1,0 +1,23 @@
+{
+    "name": "demo",
+    "version": "1.0.0",
+    "description": "demos",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./bin/server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/blackzhuo/demo.git"
+    },
+    "author": "Wu Zhuo",
+    "dependencies": {
+        "connect": "^2.7.11"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/blackzhuo/demo/issues"
+    },
+    "homepage": "https://github.com/blackzhuo/demo#readme"
+}

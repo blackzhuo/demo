@@ -20,7 +20,7 @@ function select(arr) {
         }
         [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
     }
-    return sign;
+    return arr;
 }
 let arr = [11, 16, 2, 5, 44, 12, 56, 43, 7];
 console.time('select');

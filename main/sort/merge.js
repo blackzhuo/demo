@@ -10,7 +10,6 @@ function merge(arr) {
     let middle = Math.floor(arr.length / 2);
     let left = arr.slice(0, middle);
     let right = arr.slice(middle);
-    console.log(left, right)
     return sort(merge(left), merge(right));
 }
 

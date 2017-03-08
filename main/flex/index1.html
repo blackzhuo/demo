@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flex</title>
+	<style type="text/css">
+		html{
+			height: 100%;
+		}
+		body{
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		.content{
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+		}
+		.header{
+			height: 100px;
+			background: #f00;
+		}
+		.main{
+			flex: 1;
+			overflow: auto;
+			background: #eee;
+		}
+		.post{
+			height: 2000px;
+		}
+		.footer{
+			height: 100px;
+			background: #f00;
+		}
+	</style>
+</head>
+<body>
+	<div class="content">
+		<div class="header"></div>
+		<div class="main">
+			<div class="post">
+				xxx
+			</div>
+		</div>
+		<div class="footer"></div>
+	</div>
+</body>
+</html>
